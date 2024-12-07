@@ -2,7 +2,7 @@
 
 This repository contains a reimplementation of the CycleGAN paper, specifically trained and evaluated on the Apple2Orange dataset. The goal of the project is to explore unsupervised image-to-image translation using CycleGAN.
 
-![CycleGAN Example](https://user-images.githubusercontent.com/your-image-link)
+![CycleGAN Example](https://junyanz.github.io/CycleGAN/images/cyclegan_blogs.jpg)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ### Training
 To train the CycleGAN model on Apple2Orange:
 
-Run the training cell in the Jupyter notebook, you can use last checkpoint (30 epochs with a batch size of 10) and save your own checkpoints.
+Run the training cell in the Jupyter notebook, you can save your model as training checkpoints.
 
 ### Evaluation
 To generate images:
